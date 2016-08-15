@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="4dip">
+
+    <!-- signal -->
+    <TextView
+        android:id="@+id/network_signal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+
+        android:textStyle="bold"
+        android:text="signal"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentLeft="true" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="30dp"
+        android:layout_height="220dp"
+        android:max="60"
+        android:progress="15"
+        android:progressDrawable="@drawable/progress_drawable"
+        android:indeterminate="false"
+        android:layout_marginStart="35dp"
+        android:layout_below="@+id/network_signal"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="35dp"
+        android:layout_alignParentLeft="true" />
+
+    <!-- SSID-->
+    <TextView
+        android:id="@+id/network_ssid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SSID"
+        android:textColor="#ffffff"
+        android:typeface="monospace"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="135dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="90dp" />
+
+    <!-- BSSID -->
+    <TextView
+        android:id="@+id/network_bssid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="BSSID"
+        android:layout_alignStart="@+id/network_ssid"
+        android:layout_below="@+id/network_ssid"
+        android:layout_marginTop="25dp"
+        android:layout_alignLeft="@+id/network_ssid" />
+
+    <!-- frequency -->
+    <TextView
+        android:id="@+id/network_frequency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="frequency"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/network_bssid"
+        android:layout_below="@+id/network_bssid"
+        android:layout_marginTop="0dp"
+        android:layout_alignLeft="@+id/network_bssid" />
+
+    <!-- channel -->
+    <TextView
+        android:id="@+id/network_channel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="channel"
+        android:layout_alignStart="@+id/network_frequency"
+        android:layout_below="@+id/network_frequency"
+        android:layout_marginTop="0dp"
+        android:layout_alignLeft="@+id/network_frequency" />
+
+    <!-- security -->
+    <TextView
+        android:id="@+id/network_security"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="security"
+        android:layout_alignStart="@+id/network_channel"
+        android:layout_below="@+id/network_channel"
+        android:layout_marginTop="0dp"
+        android:layout_alignLeft="@+id/network_channel" />
+
+    <!-- distance -->
+    <TextView
+        android:id="@+id/network_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="distance"
+        android:layout_alignStart="@+id/network_security"
+        android:layout_below="@+id/network_security"
+        android:layout_marginTop="25dp"
+        android:layout_alignLeft="@+id/network_security" />
+
+</RelativeLayout>

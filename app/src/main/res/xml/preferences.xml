@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:title="Choose Wifi Band"
+        android:key="wifi_band"
+        android:entries="@array/list"
+        android:entryValues="@array/values"
+        android:defaultValue="2400"
+        android:summary="%s">
+    </ListPreference>
+
+    <ListPreference
+        android:title="Wifi Scan Interval"
+        android:key="wifi_interval"
+        android:entries="@array/list2"
+        android:entryValues="@array/values2"
+        android:defaultValue="1000"
+        android:summary="%s">
+    </ListPreference>
+
+</PreferenceScreen>

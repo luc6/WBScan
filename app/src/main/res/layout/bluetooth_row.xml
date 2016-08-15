@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="4dip">
+
+    <!-- name-->
+    <TextView
+        android:id="@+id/device_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:typeface="sans"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="name"/>
+
+    <!-- class-->
+    <TextView
+        android:id="@+id/device_class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/device_name"
+        android:typeface="sans"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="class"/>
+
+    <!-- address -->
+    <TextView
+        android:id="@+id/device_mac_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/device_class"
+        android:textSize="15sp"
+        android:layout_marginTop="3dp"
+        android:text="address" />
+
+    <!-- type -->
+    <TextView
+        android:id="@+id/device_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/device_mac_address"
+        android:textSize="15sp"
+        android:layout_marginTop="3dp"
+        android:text="type"/>
+
+    <!-- bondState -->
+    <TextView
+        android:id="@+id/device_bond_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/device_type"
+        android:layout_marginEnd="5dip"
+        android:textSize="15sp"
+        android:text="bondState"
+        android:layout_marginRight="5dip" />
+
+    <!-- rssi -->
+    <TextView
+        android:id="@+id/device_rssi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/device_bond_state"
+        android:layout_marginEnd="5dip"
+        android:textSize="15sp"
+        android:text="rssi"
+        android:paddingEnd="5dp"
+        android:layout_marginRight="5dip"
+        android:paddingRight="5dp" />
+
+</RelativeLayout>

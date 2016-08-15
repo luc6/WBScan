@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list">
+        <item>2.4Ghz</item>
+        <item>5Ghz</item>
+    </string-array>
+
+    <string-array name="values">
+        <item>2400</item>
+        <item>5000</item>
+    </string-array>
+
+    <string-array name="list2">
+        <item>0.5 sec</item>
+        <item>1 sec</item>
+        <item>2 sec</item>
+        <item>3 sec</item>
+        <item>5 sec</item>
+    </string-array>
+
+    <string-array name="values2">
+        <item>500</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>3000</item>
+        <item>5000</item>
+    </string-array>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="4dip">
+
+    <!-- SSID-->
+    <TextView
+        android:id="@+id/net_ssid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ssid"
+        android:textColor="#ffffff"
+        android:typeface="sans"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+    <!-- BSSID -->
+    <TextView
+        android:id="@+id/net_bssid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/net_ssid"
+        android:textSize="15sp"
+        android:layout_marginTop="3dp"
+        android:text="bssid" />
+
+
+    <!-- channel -->
+    <TextView
+        android:id="@+id/net_channel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/net_bssid"
+        android:textSize="15sp"
+        android:layout_marginTop="3dp"
+        android:text="channel"/>
+
+    <!-- security -->
+    <TextView
+        android:id="@+id/net_security"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/net_channel"
+        android:textSize="15sp"
+        android:layout_marginTop="3dp"
+        android:text="security"/>
+
+    <!-- signal -->
+    <TextView
+        android:id="@+id/net_signal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/thumbnail"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/net_channel"
+        android:layout_marginEnd="5dip"
+        android:textSize="15sp"
+        android:text="signal"
+        android:layout_marginRight="5dip" />
+
+    <!-- thumbnail / signal_image -->
+    <LinearLayout xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="5dip"
+        android:layout_alignParentRight="true">
+
+        <ImageView
+            android:id="@+id/net_signal_img"
+            android:layout_width="35dip"
+            android:layout_height="35dip" />
+
+    </LinearLayout>
+</RelativeLayout>
