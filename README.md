@@ -1,7 +1,7 @@
 # WBScan
 Wifi and Bluetooth Scanner for Android
 
-![logo](https://github.com/luc6/WBScan/blob/master/logo_grey_web.png)
+![logo](https://github.com/luc6/WBScan/blob/master/logo_grey_xxxhdpi.png)
 
 ![screenshot](https://github.com/luc6/WBScan/blob/master/screenshotx3.png)
 
