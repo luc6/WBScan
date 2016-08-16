@@ -48,11 +48,9 @@ public class Locate_Wifi_Activity extends AppCompatActivity {
         setContentView(R.layout.activity_wifi_locate_);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
-
         wifiMngr = (WifiManager)getSystemService(Context.WIFI_SERVICE);
         networkAdapter = new CustomWifiAdapter();
         wifiReceiver = new WifiScanReceiver();
-
 
         ListView listV = (ListView)findViewById(R.id.listView2);
         listV.setAdapter(networkAdapter);

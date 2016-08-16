@@ -13,8 +13,7 @@
         android:id="@+id/listView"
         android:layout_alignParentStart="true"
         android:divider="#464242"
-        android:dividerHeight="1dp"
-        android:layout_alignParentLeft="true" />
+        android:dividerHeight="1dp" />
 
 </RelativeLayout>
 

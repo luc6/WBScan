@@ -10,7 +10,7 @@
         android:id="@+id/net_ssid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ssid"
+        android:text="@string/ssid"
         android:textColor="#ffffff"
         android:typeface="sans"
         android:textSize="15sp"
@@ -24,7 +24,7 @@
         android:layout_below="@id/net_ssid"
         android:textSize="15sp"
         android:layout_marginTop="3dp"
-        android:text="bssid" />
+        android:text="@string/bssid" />
 
 
     <!-- channel -->
@@ -35,7 +35,7 @@
         android:layout_below="@+id/net_bssid"
         android:textSize="15sp"
         android:layout_marginTop="3dp"
-        android:text="channel"/>
+        android:text="@string/channel"/>
 
     <!-- security -->
     <TextView
@@ -45,7 +45,7 @@
         android:layout_below="@+id/net_channel"
         android:textSize="15sp"
         android:layout_marginTop="3dp"
-        android:text="security"/>
+        android:text="@string/security"/>
 
     <!-- signal -->
     <TextView
@@ -53,13 +53,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/thumbnail"
-        android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignBottom="@+id/net_channel"
         android:layout_marginEnd="5dip"
         android:textSize="15sp"
-        android:text="signal"
-        android:layout_marginRight="5dip" />
+        android:text="@string/signal" />
 
     <!-- thumbnail / signal_image -->
     <LinearLayout xmlns:custom="http://schemas.android.com/apk/res-auto"
@@ -67,8 +65,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
-        android:layout_margin="5dip"
-        android:layout_alignParentRight="true">
+        android:layout_margin="5dip">
 
         <ImageView
             android:id="@+id/net_signal_img"

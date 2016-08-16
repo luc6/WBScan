@@ -5,26 +5,25 @@
     <string name="classic_bluetooth">BLUETOOTH</string>
     <string name="action_about">About</string>
     <string name="about_text">
-    <b>\n WBScan</b> - <i>Wifi and Bluetooth scanner</i>
-        \n version 1.0
-    \n\n Copyright &#169; 2016 luc6
-    \n\n This program is free software: you can redistribute it and/or modify
+    <b>\nWBScan</b> - <i>Wifi and Bluetooth scanner</i>
+        \nversion 1.0
+    \n\nCopyright &#169; 2016 luc6
+    \n\nThis program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
 
-    \n\n This program is distributed in the hope that it will be useful,
+    \n\nThis program is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
 
-    \n\n You should have received a copy of the GNU General Public License
-    along with this program.  If not, see http://www.gnu.org/licenses/.
+    \n\nYou should have received a copy of the GNU General Public License
+    along with this program. If not, see http://www.gnu.org/licenses/.
 
-        \n\n Inspired by JAWS: https://github.com/jannispinter/jaws
+        \n\nInspired by JAWS: https://github.com/jannispinter/jaws
 
-        \n\n Source code available at: http://github.com/luc6/WBScan
-        \n
+        \n\nSource code available at: http://github.com/luc6/WBScan
 
     </string>
     <string name="wifi_is_disabled">Wi-Fi Disabled</string>
@@ -40,23 +39,39 @@
     <string name="action_info">Info</string>
     <string name="info_text">
        <b>\nWhat this app can do:</b>
-                \n\n This app can scan nearby wireless access points and can provide some information
+                \n\nThis app can scan nearby wireless access points and can provide some information
                 about them. Also, this app can be used for localizing APs based on signal strength.
                 \n\n<i>(notice that the signal strength is reduced by obstacles and radio noise, so in most of
                 the cases the APs are closer than the estimation)</i>
-                \n\n The bluetooth part of the app will provide just a detailed list of the discoverable
+                \n\nThe bluetooth part of the app will provide just a detailed list of the discoverable
                 bluetooth devices, without the localization feature seen on wifi scan.
-        <b>\n\n What this app can\'t do:</b>
-                \n\n The app does not provide at this point any connectivity related options, so you cannot
+        <b>\n\nWhat this app can\'t do:</b>
+                \n\nThe app does not provide at this point any connectivity related options, so you cannot
                 connect to other devices using this app, although this might change in the future.
 
-        <b>\n\n Tip:</b>
-                \n\n Use the exit button (from the menu) to turn off Wifi and Bluetooth when you finnish.
-                \n (only if Wifi or Bluetooth was enabled by this app)
+        <b>\n\nTip:</b>
+                \n\nUse the exit button (from the menu) to turn off Wifi and Bluetooth when you finnish.
+                \n(only if Wifi or Bluetooth was enabled by this app)
 
-        \n\n For any suggestions, or for reporting a bug, please contact me at:
-        \n\n Thanks.
+        \n\nFor any suggestions, or for reporting a bug, please leave a comment at: https://github.com/luc6/WBScan/issues
+        \n\nThanks.
 
     </string>
+    <string name="signal">signal</string>
+    <string name="security">security</string>
+    <string name="channel">channel</string>
+    <string name="bssid">bssid</string>
+    <string name="ssid">ssid</string>
+    <string name="SSID">SSID</string>
+    <string name="BSSID">BSSID</string>
+    <string name="frequency">frequency</string>
+    <string name="distance">distance</string>
+    <string name="rssi">rssi</string>
+    <string name="bondstate">bondState</string>
+    <string name="type">type</string>
+    <string name="address">address</string>
+    <string name="Class">class</string>
+    <string name="name">name</string>
+    <string name="start">Start</string>
 
 </resources>

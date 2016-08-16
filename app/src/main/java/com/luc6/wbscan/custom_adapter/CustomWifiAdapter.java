@@ -163,18 +163,28 @@ public class CustomWifiAdapter extends BaseAdapter {
             progBar.setProgress(network.getSignal() + 100);
 
 
-            if ((network.getSecurity().contains("[WPA-PSK-CCMP]")) && (network.getSecurity().contains("[WPA2-PSK-CCMP]"))) {
-                security.append("[WPA-WPA2-PSK-CCMP]");
-            } else if ((network.getSecurity().contains("[WPA-PSK-CCMP+TKIP]")) && (network.getSecurity().contains("[WPA2-PSK-CCMP+TKIP]"))) {
-                security.append("[WPA2-PSK-CCMP+TKIP]");
+            if ((network.getSecurity().contains("WPA")) && (network.getSecurity().contains("WPA2"))) {
+                security.append("WPA2 ");
+            } else if (network.getSecurity().contains("WPA")) {
+                security.append("WPA ");
+            } else if (network.getSecurity().contains("WEP")) {
+                security.append("WEP ");
+            }
+
+            if (network.getSecurity().contains("CCMP")) {
+                security.append("CCMP ");
+            }
+
+            if (network.getSecurity().contains("TKIP")) {
+                security.append("TKIP ");
+            }
+
+            if (network.getSecurity().contains("PSK")) {
+                security.append("PSK ");
             }
 
             if (network.getSecurity().contains("WPS")) {
-                security.append("[WPS]");
-            }
-
-            if (network.getSecurity().contains("WEP")) {
-                security.append("[WEP]");
+                security.append("WPS ");
             }
 
             if (network.getSecurity().contains("ESS")) {

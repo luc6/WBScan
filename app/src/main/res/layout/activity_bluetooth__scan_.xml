@@ -42,7 +42,7 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_alignParentBottom="true"
-            android:text="Start"
+            android:text="@string/start"
             android:textStyle="bold"
             android:textColor="@color/textWhiteOpacity150"/>
 
