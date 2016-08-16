@@ -12,12 +12,13 @@ Wifi and Bluetooth Scanner for Android
     of the APs arround you (in the case of Wifi scan), or a list of bluetooth devices (for Bluetooth scan).
     Also, the app can be used to localize an AP based on the signal strength, by showing you a graphical 
     representation of that signal level together with an audible indicator.
-    Unfortunately, this feature is not present on the Bluetooth scan, becouse this scan is very slow (
-    bluetooth is performing an active scan,  while Wifi scan is passive).
-    I should also mention that this app does not provide any kind of connectivity relateded features.
+    Unfortunately, this feature is not present on the Bluetooth scan, becouse this scan is very slow 
+    (bluetooth is performing an active scan,  while Wifi scan is passive).
+    I should also mention that this app does not provide any kind of connectivity related features.
     
     If you have an issue, if you like it or dislike it, please let me know. I will appreciate any feedback, 
     mostly becouse this is my first app. 
+    
     You can live a comment at https://github.com/luc6/WBScan/issues
     Thank.
     
